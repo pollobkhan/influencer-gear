@@ -1,8 +1,8 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-body{
-    margin-top: 50px;
+main{
+    /* margin-top: 20px; */
     margin-left: 150px;
     margin-right: 150px;
 }
@@ -19,7 +19,8 @@ body{
     justify-content: space-between;
 }
 .header h1{
-    font-size: 24px;
+    font-size: 30px;
+    color: red;
 }
 .lists{
     display: flex;
@@ -43,9 +44,12 @@ main{
     display: flex;
     gap: 100px;
 }
+.first-section #mc{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
 .first-section h1{
     font-size: 52px;
-    margin: 10px;
 }
 .first-section p{
     text-align: justify;
@@ -60,6 +64,11 @@ button{
     font-weight: bold;
     font-size: 16px;
 }
+button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
 
 /* logo style */
 .logos{
@@ -68,4 +77,92 @@ button{
     justify-content: space-evenly;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+/* products style */
+.collection{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.collection h1{
+    color: red;
+    border-bottom: 1px solid black;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+.product{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.product h2,h3{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.fa-star, .fa-star-half-stroke{
+    color: orange;
+}
+.seemore{
+    display: flex;
+    justify-content: end;
+}
+.seemore a{
+    text-decoration: none;
+}
+.seemore a:hover h3{
+    color: black;
+}
+.sm{
+    color: red;
+    padding-top: 30px;
+}
+/* feature */
+.feature{
+    display: flex;
+    gap: 20px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.feature .img{
+    width: 40%;
+}
+.feature .info{
+    width: 60%;
+}
+.feature p{
+    margin-bottom: 30px;
+}
+
+/* footer */
+footer{
+    background-color: #0A0826;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 50px;
+}
+footer h2{
+    /* margin-top: 30px;
+    margin-bottom: 10px; */
+    margin: 0;
+} 
+footer p{
+    margin: 5px;
+    font-size: 12px;
+}
+footer #link {
+   display: flex;
+   gap: 20px;
+}
+footer .fa-brands{
+    color: white;
 }
