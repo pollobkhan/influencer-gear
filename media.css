@@ -1,0 +1,46 @@
+@media (max-width:688px){
+  .main{
+      margin: 0;
+      padding: 0;
+  }
+  .header-main .header .head h1{
+    margin-left: 20px;
+  }
+  }
+  .header .lists{
+      display: none;
+  }
+  .first-section{
+      flex-direction: column-reverse;
+  }
+  .first-section .pera h1{
+      font-size: 30px;
+  }
+  .first-section .pera p{
+      width: 340px;
+  }
+  .first-section .pera button{
+      width: 300px;
+  }
+  .first-section .camera img{
+    width: 100%;
+  }
+  .logos{
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+  }
+  .collection-sec .products{
+      display: flex;
+     flex-wrap: wrap;
+  }
+  .feature{
+      flex-direction: column-reverse;
+  }
+  .feature .info h1,p,button{
+      width: 150%;
+  }
+  .feature .img img{
+      width: 250%;
+  }
+}

@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 main{
-    /* margin-top: 20px; */
     margin-left: 150px;
     margin-right: 150px;
 }
@@ -42,11 +41,7 @@ main{
 }
 .first-section{
     display: flex;
-    gap: 100px;
-}
-.first-section #mc{
-    background-image: url(images/Circle\ design.svg);
-    background-repeat: no-repeat;
+    gap: 10px;
 }
 .first-section h1{
     font-size: 52px;
